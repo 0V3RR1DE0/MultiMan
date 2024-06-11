@@ -1,3 +1,5 @@
+# inscribe.py
+
 import curses
 import os
 import time

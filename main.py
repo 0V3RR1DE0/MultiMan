@@ -1,3 +1,5 @@
+# main.py
+
 import argparse
 import importlib.util
 import os
@@ -232,6 +234,11 @@ def parse_rm_command(args):
     args = parser.parse_args(shlex.split(args))
     for path in args.path:
         remove(path, recursive=args.recursive, force=args.force)
+        
+        
+############################################################
+######################## Modules ###########################
+############################################################
 
 def main():
     print("Welcome to the Python Multitool CLI. Type 'help' to see available commands.")
