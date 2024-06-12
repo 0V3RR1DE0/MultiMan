@@ -1,4 +1,4 @@
-# main.py
+# MultiMan.py
 
 import argparse
 import importlib.util
