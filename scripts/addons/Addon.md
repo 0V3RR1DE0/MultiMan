@@ -1,6 +1,6 @@
-# Creating Addons for MultiMan CLI
+# Creating Addons for Quanta CLI
 
-To create addons for the MultiMan CLI, follow these steps:
+To create addons for the Quanta CLI, follow these steps:
 
 ## 1. Import Required Modules
 
@@ -44,7 +44,7 @@ Save your addon script with a meaningful name, preferably reflecting the functio
 
 ## 5. Usage
 
-To use your addon, place it in the `addons` directory within the MultiMan CLI project. Then, when you run the MultiMan CLI, your addon will be automatically detected and listed as an available command.
+To use your addon, place it in the `addons` directory within the Quanta CLI project. Then, when you run the Quanta CLI, your addon will be automatically detected and listed as an available command.
 
 ```
 ╔══(User@Computer)-[Current/Directory]
@@ -145,4 +145,4 @@ Argument 1: value
 Argument 1: value
 ```
 
-That's it! You've successfully created and used an addon for the MultiMan CLI.
+That's it! You've successfully created and used an addon for the Quanta CLI.

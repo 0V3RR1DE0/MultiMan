@@ -1,4 +1,4 @@
-# MultiMan.py
+# Quanta.py
 
 import argparse
 import importlib.util
@@ -10,10 +10,10 @@ import shutil
 import inspect
 
 # Change the console window title
-os.system("title MultiMan")
+os.system("title Quanta")
 
 # Change the process name
-setproctitle.setproctitle("MultiMan")
+setproctitle.setproctitle("Quanta")
 
 # Determine the base directory of the main script
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
